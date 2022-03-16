@@ -13,7 +13,7 @@ const Sidebar = () => {
   return (
     <div>
       <Image
-        src="/images/DSC_0695.jpg"
+        src="/images/avatar.JPG"
         alt="avatar"
         className="mx-auto rounded-full"
         width="128px"
@@ -38,6 +38,9 @@ const Sidebar = () => {
       <div className="flex justify-around w-9/12 my-5 text-purple md:w-full">
         <a href="https://www.linkedin.com/in/daniel-grenfell-551a881b3/">
           <AiFillLinkedin className="w-10 h-10 cursor-pointer" />
+        </a>
+        <a href="https://github.com/dgrenfell">
+          <AiFillGithub className="w-10 h-10 cursor-pointer" />
         </a>
       </div>
 
